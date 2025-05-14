@@ -1,12 +1,10 @@
-import Navbar from './components/navbar'
-import Card from './components/card'
+import React from 'react';
+import Card from "./components/card";
+
 function App() {
   return (
-    <>
-    <Navbar />
-    < Card />
-    </>
-  )
+    <Card />
+  );
 }
 
-export default App
+export default App;
