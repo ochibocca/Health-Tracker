@@ -1,4 +1,5 @@
-import React from 'react';
+import Navbar from"../components/navbar"
+import Card from"../components/card"
 
 function Home() {
   return (
@@ -6,6 +7,8 @@ function Home() {
       <div>
         <h1>Hello World</h1>
       </div>
+        <Navbar />
+        <Card />
     </header>
   );
 }

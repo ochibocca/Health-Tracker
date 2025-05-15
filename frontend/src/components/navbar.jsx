@@ -12,8 +12,10 @@ function Navbar(){
                             <a href = "#"> Work </a>
                     </li>
                 </ul>
+                <div className="regitra-btn">
                    <button className="login-btn"> Login</button>
-                <button> SignUp</button>
+                   <button className="sign-btn"> signup-btn</button>
+                   </div>
             </div>
         </nav>
     )

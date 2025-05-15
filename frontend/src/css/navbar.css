@@ -1,0 +1,8 @@
+.nav-cointainer{
+    display: flex;
+}
+.regitra-btn{
+    margin-left: 50px;
+    margin: 0 0 10px 50px;
+        gap: 10px;
+}
