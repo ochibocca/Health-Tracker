@@ -8,8 +8,7 @@ function Navbar(){
                         <a href = "#"> Home </a>
                          <a href = "#"> About </a>
                           <a href = "#"> Map </a>
-                           <a href = "#"> Impact </a>
-                            <a href = "#"> Work </a>
+                            <a href = "#"> Our Work </a>
                     </li>
                 </ul>
                 <div className="regitra-btn">

@@ -1,22 +1,22 @@
-import React, { useState } from "react";
-
-import Navbar from"../components/navbar"
-import Card from"../components/card"
-
-
+import Navbar from "../components/navbar";
 function Home() {
-  const [count , setCount]= useState(1)
-  let nnn = "meaga ochieng"
   return (
     <header>
-      <div>
-        <h1>Hello World</h1>
+      <Navbar />
+      <div className="goal">
+        <p> Health Tracker Saves lives in Mathare</p>
       </div>
-        <Navbar />
-        <Card Name={"nnnnn"} description={"hhhhhe"}/>
-         <Card Name={"reagan"} description={"ochieng"}/>
-        <p>{count}</p>
-        <button onClick={()=> setCount (count+1)}>jihiorj</button>
+      <div className="info-expanded">
+      <div className="Img-goal">
+        <img src="https://food4education.org/wp-content/uploads/2024/08/parents-tap-960x960.jpg.webp"></img>
+      </div>
+      <div className="goal-info">
+        <p> Do you know lots of people in Mathare die every year because of there health not being tracked. </p>
+      </div>
+      </div>
+      <div className="track-btn">
+        <button>Track Health</button>
+      </div>
     </header>
   );
 }
