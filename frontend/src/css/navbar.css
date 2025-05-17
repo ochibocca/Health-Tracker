@@ -1,8 +1,29 @@
 .nav-cointainer{
     display: flex;
+   background-color: #6199ac;
+}
+ul ,li , a{
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 10px;
+     list-style-type: none;
 }
 .regitra-btn{
-    margin-left: 50px;
-    margin: 0 0 10px 50px;
-        gap: 10px;
+    margin-right: 100px;
+     position: absolute;
+    left: 75%;
+}
+.login-btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.sign-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+
 }

@@ -3,6 +3,9 @@ function Navbar(){
     return(
         <nav>
             <div className="nav-cointainer">
+                <div className="logo">
+                    <img src=""></img>
+                </div>
                 <ul>
                     <li>
                         <a href = "#"> Home </a>
